@@ -29,5 +29,13 @@
     "nyc": "^6.4.4",
     "standard": "^7.1.0",
     "tape": "^4.5.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mappum/prevents.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mappum/prevents/issues"
+  },
+  "homepage": "https://github.com/mappum/prevents#readme"
 }
