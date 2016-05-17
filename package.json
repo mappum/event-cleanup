@@ -1,6 +1,6 @@
 {
   "name": "prevents",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Wrap an EventEmitter for easy listener cleanup",
   "main": "index.js",
   "scripts": {
