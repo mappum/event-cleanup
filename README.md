@@ -1,17 +1,17 @@
-# prevents
+# event-cleanup
 
-[![npm version](https://img.shields.io/npm/v/prevents.svg)](https://www.npmjs.com/package/prevents)
-[![Build Status](https://travis-ci.org/mappum/prevents.svg?branch=master)](https://travis-ci.org/mappum/prevents)
-[![Dependency Status](https://david-dm.org/mappum/prevents.svg)](https://david-dm.org/mappum/prevents)
+[![npm version](https://img.shields.io/npm/v/event-cleanup.svg)](https://www.npmjs.com/package/event-cleanup)
+[![Build Status](https://travis-ci.org/mappum/event-cleanup.svg?branch=master)](https://travis-ci.org/mappum/event-cleanup)
+[![Dependency Status](https://david-dm.org/mappum/event-cleanup.svg)](https://david-dm.org/mappum/event-cleanup)
 
 **Wrap an EventEmitter for easy listener cleanup**
 
 ## Usage
 
-`npm install prevents`
+`npm install event-cleanup`
 
 ```js
-var wrap = require('prevents')
+var wrap = require('event-cleanup')
 
 // wrap an EventEmitter called `emitter`
 var wrapper = wrap(emitter)
@@ -28,7 +28,7 @@ wrapper.removeListener(...)
 wrapper.removeAll()
 ```
 
-`prevents` lets you wrap an [`EventEmitter`](https://nodejs.org/api/events.html#events_class_eventemitter), letting you add/remove listeners to a separate `EventEmitter` without polluting the original. When you are done, you can clean up all of the listeners added to the wrapper `EventEmitter`.
+`event-cleanup` lets you wrap an [`EventEmitter`](https://nodejs.org/api/events.html#events_class_eventemitter), letting you add/remove listeners to a separate `EventEmitter` without polluting the original. When you are done, you can clean up all of the listeners added to the wrapper `EventEmitter`.
 
 ### API
 

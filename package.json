@@ -1,5 +1,5 @@
 {
-  "name": "prevents",
+  "name": "event-cleanup",
   "version": "1.0.3",
   "description": "Wrap an EventEmitter for easy listener cleanup",
   "main": "index.js",
@@ -32,10 +32,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mappum/prevents.git"
+    "url": "git+https://github.com/mappum/event-cleanup.git"
   },
   "bugs": {
-    "url": "https://github.com/mappum/prevents/issues"
+    "url": "https://github.com/mappum/event-cleanup/issues"
   },
-  "homepage": "https://github.com/mappum/prevents#readme"
+  "homepage": "https://github.com/mappum/event-cleanup#readme"
 }
