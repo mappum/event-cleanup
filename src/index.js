@@ -23,7 +23,7 @@ class EventWrapper extends EventEmitter {
   }
 
   _onRemoveListener (event) {
-    if (this.listenerCount(event) === 0) {
+    if (this.events[event] && this.listenerCount(event) === 0) {
       this._cleanupEvent(event)
     }
   }
