@@ -1,0 +1,22 @@
+{
+  "name": "prevents",
+  "version": "1.0.0",
+  "description": "Wrap an EventEmitter for easy listener cleanup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eventemitter",
+    "events",
+    "cleanup",
+    "wrapper",
+    "wrap",
+    "proxy"
+  ],
+  "author": "Matt Bell <mappum@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "old": "^0.1.2"
+  }
+}
